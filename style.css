@@ -1,0 +1,30 @@
+.card{
+
+height: 200px;
+width: 200px;
+animation: starboy 2s infinite;
+background-size: contain;
+background-color: brown;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+
+@keyframes starboy  {
+        50%{background-color: brown;
+        transform: translateX(500px);
+        
+        }
+       
+
+        100%{background-color: blue;
+        transform: translateY(500px);
+        
+        }
+
+
+
+
+
+
+}
